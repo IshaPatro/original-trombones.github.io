@@ -58,7 +58,7 @@ em {
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
 	color: #fff;
-	padding-bottom: 25px;
+	padding-bottom: 10px;
 	border-bottom: 3px solid #8206ff;
 }
 .navbar .navbar-toggler-icon {
@@ -95,7 +95,6 @@ i,h4{
 
 
 input {
-   
     color: #fff;
     font-size: 25px;
     font-weight:400;
@@ -112,26 +111,28 @@ input {
     background-color: transparent;
 }
 .message {
-   font: 18px Helvetica, Arial, Sans-serif;
+   	font: 18px Helvetica, Arial, Sans-serif;
     display: none;
     width: 100%;
     padding: 20px;
     color: #fff;
     border-radius: 2px;
+		width: 20%;
 }
 .error {
     background: red;
-	margin-left: 2%;
-	
+		margin-left: 2%;
+		width: 20%;
 }
 .success {
-  background: green;
+   background: green;
 	 margin-left: 2%;
-  border-radius: 10px;
+   border-radius: 10px;
+	 width: 20%;
 }
 
 .submit:hover{
-	font-size: 20px;	
+	font-size: 20px;
 }
 
 .latest-products {
